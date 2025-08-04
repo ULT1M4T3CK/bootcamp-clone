@@ -218,14 +218,8 @@ body {
 .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: var(--spacing-6);
-    display: flex;
-    flex-direction: column;
-}
-
-.hero-title span {
-    display: block;
 }
 
 .hero-description {
@@ -305,7 +299,7 @@ body {
     color: var(--purple-light);
 }
 
-.session-info span {
+.session-info {
     font-size: var(--font-size-sm);
     color: var(--purple-light);
 }
@@ -480,8 +474,8 @@ body {
         font-size: 2.5rem;
     }
     
-    .hero-title span {
-        display: inline;
+    .hero-title br {
+        display: none;
     }
     
     .hero-description {
