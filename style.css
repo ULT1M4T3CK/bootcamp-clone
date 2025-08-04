@@ -222,6 +222,10 @@ body {
     margin-bottom: var(--spacing-6);
 }
 
+.hero-title div {
+    display: block;
+}
+
 .hero-description {
     font-size: var(--font-size-lg);
     color: #a1a1aa;
@@ -474,8 +478,8 @@ body {
         font-size: 2.5rem;
     }
     
-    .hero-title br {
-        display: none;
+    .hero-title div {
+        display: inline;
     }
     
     .hero-description {
